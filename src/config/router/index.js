@@ -9,7 +9,6 @@ const Index = () => {
                 <Routes>
                     <Route>
                         <Route path='/' element={<Open />} />
-                        <Route path='/Portfolio/' element={<Open />} />
                         <Route path='/home' element={<Home />} />
                         <Route path='*' element={<Admin />} />
                         <Route path='/register' element={<Register />} />
