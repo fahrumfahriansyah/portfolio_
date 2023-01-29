@@ -1,0 +1,41 @@
+.container_register_ligth {
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+
+
+    .Layout_register {
+        height: 100vh;
+        background-color: white;
+
+        .loader_daftar {
+            margin: 400px auto;
+        }
+
+        .col_register {
+
+            .card_register {
+                margin: auto;
+                margin-top: 10vh;
+                border-radius: 10px;
+                box-shadow: 1px 1px 1px black, -1px -1px 1px black;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+                h3 {
+                    padding: 20px;
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+
+                .Button_Register {
+                    display: grid;
+                    grid-template-columns: 0.5fr 0.5fr;
+                    gap: 10px;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+
+}

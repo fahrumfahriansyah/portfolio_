@@ -1,0 +1,53 @@
+.container_Login_ligth {
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+    overflow: hidden;
+
+    .Layout_Login {
+
+        .test {
+            img {
+                margin: auto;
+            }
+
+            .doraeman_jahat {
+                margin: auto;
+                position: relative;
+                bottom: 100px;
+                transform: rotate(180deg);
+                opacity: 0;
+            }
+
+
+            .col_Login {
+                position: relative;
+                z-index: 2;
+
+                .card_Login {
+                    margin: 0 auto;
+                    border-radius: 10px;
+                    box-shadow: 1px 1px 1px black, -1px -1px 1px black;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+                    h3 {
+                        color: rgb(18, 17, 17);
+                        opacity: 0.9;
+                        padding: 20px;
+                        text-align: center;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    }
+
+                    .Button_Login {
+                        display: grid;
+                        grid-template-columns: 0.5fr 0.5fr;
+                        gap: 10px;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

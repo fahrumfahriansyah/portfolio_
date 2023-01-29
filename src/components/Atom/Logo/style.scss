@@ -1,0 +1,49 @@
+.container_Logo {
+    // border: 1px solid orange;
+    text-align: center;
+    padding: 10px 10px;
+    width: max-content;
+    transition: 1s;
+    border-radius: 20px;
+
+    .Card_project {
+        padding: 10px;
+    }
+
+
+
+    .logo {
+        margin: auto;
+
+
+        img {
+            padding: 2px;
+            border: 3px solid white;
+            border-radius: 50%;
+            width: 30px;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 8px;
+        }
+    }
+}
+
+.container_Logo:hover {
+    // background-color: orange;
+    text-align: center;
+
+    .logo {
+        margin: auto;
+
+
+        img {
+            padding: 2px;
+            border: 2px dotted white;
+            border-radius: 50%;
+        }
+
+        h1 {}
+    }
+}

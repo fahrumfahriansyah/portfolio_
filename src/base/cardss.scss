@@ -1,0 +1,240 @@
+@import "./base.scss";
+
+.project_card_light {
+    width: 100%;
+
+
+
+    .card_3d {
+        height: 100%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        font-family: Helvetica,
+            sans-serif;
+
+        .image_card {
+            height: 100%;
+            width: 86%;
+            object-fit: contain;
+            transition: 1s;
+        }
+
+
+
+        .title_card {
+            margin-left: 20px;
+            transition: 1s;
+            color: black;
+        }
+
+        .text-card {
+            transition: 1s;
+            margin-left: 15px;
+            color: rgb(24, 23, 23);
+        }
+
+        .button_project {
+            width: 100%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 40px;
+            gap: 5;
+
+
+            .button_card {
+                transition: 1s;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+        }
+    }
+
+    .card_3d:hover {
+
+        .image_card {
+            transform: translate3d(1%, -2%, 800px);
+            box-shadow: -1px 5px 5px black;
+        }
+
+
+
+        .title_card {
+            transform: translate3d(2%, -2%, 600px);
+            text-shadow: -1px 1px 0px black;
+            background-color: transparent;
+
+
+        }
+
+        .text-card {
+            transform: translate3d(2%, -2%, 400px);
+            text-shadow: -0px 1px 0px black;
+            background-color: transparent;
+        }
+
+        .button_card {
+
+            transform: translate3d(1%, -2%, 1000px);
+            box-shadow: -4px 5px 5px black;
+        }
+    }
+
+    .button_Logo {
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+
+    .Header_techonology {
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 0px 5px 6px black;
+        margin: auto;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        transition: 1s;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        hr {
+            margin: auto;
+            width: 80%;
+            margin-bottom: 20px;
+        }
+
+
+
+        .Container_Logo {
+            padding: 2px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+            gap: 12px;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+
+
+}
+
+
+.project_card_dark {
+
+
+
+    .card_3d {
+
+        background-color: $bg_colorr;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        font-family: Helvetica,
+            sans-serif;
+
+        .image_card {
+            height: 100%;
+            width: 86%;
+            object-fit: contain;
+            transition: 1s;
+        }
+
+
+
+        .title_card {
+            transition: 1s;
+            color: white;
+        }
+
+        .text-card {
+            transition: 1s;
+            color: rgb(196, 196, 196);
+        }
+
+        .button_project {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 40px;
+            gap: 5;
+
+
+            .button_card {
+                transition: 1s;
+
+            }
+        }
+    }
+
+    .card_3d:hover {
+
+        .image_card {
+            transform: translate3d(1%, -2%, 800px);
+            box-shadow: -1px 5px 5px black;
+        }
+
+
+
+        .title_card {
+            transform: translate3d(2%, -2%, 600px);
+            text-shadow: -1px 1px 0px black;
+            background-color: transparent;
+
+        }
+
+        .text-card {
+            transform: translate3d(2%, -2%, 400px);
+            text-shadow: -0px 1px 0px black;
+            background-color: transparent;
+
+        }
+
+        .button_card {
+            transform: translate3d(1%, -2%, 1000px);
+            box-shadow: -4px 5px 5px black;
+        }
+    }
+
+    .Header_techonology {
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 0px 5px 6px black;
+        margin: auto;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        transition: 1s;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        hr {
+            margin: auto;
+            width: 80%;
+            margin-bottom: 20px;
+        }
+
+
+
+        .Container_Logo {
+            color: $text_color_dark;
+            padding: 2px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+            gap: 12px;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    }
+}
+
+
+
+.Header_techonology:hover {
+    hr {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+}

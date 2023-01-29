@@ -1,0 +1,138 @@
+@import "./base.scss";
+
+
+.home_light {
+    background-color: white;
+
+
+    .Contain_home {
+        width: 80%;
+        margin: auto;
+        padding: 150px 0px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        h1 {
+            font-size: 32px;
+        }
+
+        p {
+            font-weight: 400;
+            margin-top: 30px;
+            font-size: 15px;
+            color: rgb(32, 30, 30);
+        }
+    }
+
+    .image_home {
+        opacity: 0.7;
+    }
+
+    .project_home {
+        margin-top: 200px;
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .Contain_project {
+        padding: 20px;
+
+
+        .project_header {
+            h1 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+            }
+
+            .button_project {
+                text-align: right;
+                margin-right: 10%;
+            }
+
+            margin-bottom: 100px;
+        }
+
+        .project_card {
+            width: 80%;
+        }
+    }
+
+    .project_button {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: max-content;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .image_home {
+        opacity: 0.7;
+        display: none;
+    }
+}
+
+.home_dark {
+    background-color: black;
+    height: 1000px;
+    color: $color_text_light;
+
+    .Contain_home {
+        width: 80%;
+        margin: auto;
+        padding: 150px 0px;
+
+
+        h1 {
+            font-size: 24px;
+        }
+
+        p {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+        }
+    }
+
+    .image_home {
+        opacity: 0.7;
+    }
+
+    .project_home {
+        margin-top: 200px;
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .Contain_project {
+        padding: 20px;
+
+
+        .project_header {
+            .button_project {
+                text-align: right;
+                margin-right: 10%;
+            }
+
+            h1 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+            }
+
+            margin-bottom: 100px;
+        }
+
+        .project_card {
+            width: 80%;
+        }
+    }
+
+    .project_button {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: max-content;
+        justify-content: center;
+    }
+}

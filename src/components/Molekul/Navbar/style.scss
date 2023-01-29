@@ -1,0 +1,45 @@
+.Header_project {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+
+    .judul_header {
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        span {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            animation-name: example;
+            animation-duration: 1s;
+            transition: 1s;
+        }
+
+        span:hover {
+            font-size: 15px;
+        }
+    }
+
+    @keyframes example {
+        0% {
+            display: none;
+        }
+
+        10% {
+            display: none;
+            margin-left: -150px;
+            transform: rotate(160deg);
+        }
+
+
+        20% {
+
+            display: block;
+        }
+
+        70% {
+            transform: rotate(180deg);
+        }
+
+    }
+}
