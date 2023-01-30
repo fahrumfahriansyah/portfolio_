@@ -15,7 +15,6 @@ const Index = () => {
                         <Route path='Login' element={<Login />} />
                         <Route path='About' element={<About />} />
                         <Route path='Contacts' element={<Contacts />} />
-                        <Route component={NotFound} />
                     </Route>
                 </Routes>
             </BrowserRouter>
