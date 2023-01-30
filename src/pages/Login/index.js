@@ -38,7 +38,7 @@ const Login = () => {
                 sessionStorage.setItem("dataId", data._id)
                 dispatch({ type: "Admin", payload: data._id })
                 const dataId = sessionStorage.getItem("dataId")
-                history(`/home/${data._id || dataId}`)
+                history(`/Home/${data._id || dataId}`)
 
             } else {
                 setValue([{ msg: "akun tidak ada" }])
@@ -128,7 +128,7 @@ const Login = () => {
                                         />
                                     </InputGroup>
                                     <div className='Button_Login' >
-                                        <Button variant="info" className='btn_Daftar' onClick={() => { history("/register") }} >Daftar</Button>{' '}
+                                        <Button variant="info" className='btn_Daftar' onClick={() => { history("/Register") }} >Daftar</Button>{' '}
                                         <Button variant="success" className='btn_Create' onClick={() => { Login() }} >Masuk</Button>{' '}
                                     </div>
                                 </>

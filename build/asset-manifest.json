@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a1113616.css",
-    "main.js": "/static/js/main.dcee1028.js",
+    "main.js": "/static/js/main.c182908c.js",
     "static/media/bunga.png": "/static/media/bunga.169be12398e3faf87c72.png",
     "static/media/earth1.png": "/static/media/earth1.00cd234974f2ebb0ecd7.png",
     "static/media/bintang.jpg": "/static/media/bintang.52fd09ee2a3669080529.jpg",
@@ -14,10 +14,10 @@
     "static/media/loading.jpg": "/static/media/loading.fcba106fba76720f6b62.jpg",
     "index.html": "/index.html",
     "main.a1113616.css.map": "/static/css/main.a1113616.css.map",
-    "main.dcee1028.js.map": "/static/js/main.dcee1028.js.map"
+    "main.c182908c.js.map": "/static/js/main.c182908c.js.map"
   },
   "entrypoints": [
     "static/css/main.a1113616.css",
-    "static/js/main.dcee1028.js"
+    "static/js/main.c182908c.js"
   ]
 }
