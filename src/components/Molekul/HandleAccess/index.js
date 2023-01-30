@@ -26,7 +26,7 @@ const HandleAccess = () => {
     }
     return (
         <>
-            <NavDropdown.Item href="#action4" onClick={() => handleShow()} >
+            <NavDropdown.Item onClick={() => handleShow()} >
                 Access
             </NavDropdown.Item>
 
