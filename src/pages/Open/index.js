@@ -22,7 +22,7 @@ const Open = () => {
                         <h1>Hello World</h1>
                         <p><strong>Selamat datang di portfolio saya</strong>  . Di sini Anda akan melihat beberapa proyek yang telah saya kerjakan dan hasil karya saya. Saya berharap Anda akan menyukai apa yang Anda lihat dan terinspirasi oleh kreativitas saya. Silakan menjelajahi dan jangan ragu untuk menghubungi saya jika Anda memiliki pertanyaan atau komentar.</p>
                         <div className='button_home'>
-                            {'>>>'} <Button variant="primary" onClick={() => history("index.html/Home")} >Letsgo</Button>
+                            {'>>>'} <Button variant="primary" onClick={() => history("/Home")} >Letsgo</Button>
                         </div>
                     </div>
                 </Col>
