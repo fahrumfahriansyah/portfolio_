@@ -4,8 +4,8 @@ import { Home, Access } from '../index.js'
 const Admin = () => {
     return (
         <Routes>
-            <Route path="/home/:id" element={<Home />} />
-            <Route path="/home/:id/Access" element={<Access />} />
+            <Route path="home/:id" element={<Home />} />
+            <Route path="home/:id/Access" element={<Access />} />
         </Routes>
     )
 }
