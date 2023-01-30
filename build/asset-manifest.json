@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1113616.css",
-    "main.js": "/static/js/main.ec08dba0.js",
-    "static/media/bunga.png": "/static/media/bunga.169be12398e3faf87c72.png",
-    "static/media/earth1.png": "/static/media/earth1.00cd234974f2ebb0ecd7.png",
-    "static/media/bintang.jpg": "/static/media/bintang.52fd09ee2a3669080529.jpg",
-    "static/media/doraemon.png": "/static/media/doraemon.72a2337a5bdd37145e2d.png",
-    "static/media/doraemon-seram.png": "/static/media/doraemon-seram.183be22ac5321acc8427.png",
-    "static/media/Google.png": "/static/media/Google.e913caed1bed8eb5ef57.png",
-    "static/media/inst.png": "/static/media/inst.74dfaf920db79c07cf4f.png",
-    "static/media/fahri.jpg": "/static/media/fahri.2ebbfc770120091e5570.jpg",
-    "static/media/github.png": "/static/media/github.ba9cb8d57d53e7189c48.png",
-    "static/media/loading.jpg": "/static/media/loading.fcba106fba76720f6b62.jpg",
-    "index.html": "/index.html",
-    "main.a1113616.css.map": "/static/css/main.a1113616.css.map",
-    "main.ec08dba0.js.map": "/static/js/main.ec08dba0.js.map"
+    "main.css": "/index.html/static/css/main.25e58064.css",
+    "main.js": "/index.html/static/js/main.df366d06.js",
+    "static/media/bunga.png": "/index.html/static/media/bunga.169be12398e3faf87c72.png",
+    "static/media/earth1.png": "/index.html/static/media/earth1.00cd234974f2ebb0ecd7.png",
+    "static/media/bintang.jpg": "/index.html/static/media/bintang.52fd09ee2a3669080529.jpg",
+    "static/media/doraemon.png": "/index.html/static/media/doraemon.72a2337a5bdd37145e2d.png",
+    "static/media/doraemon-seram.png": "/index.html/static/media/doraemon-seram.183be22ac5321acc8427.png",
+    "static/media/Google.png": "/index.html/static/media/Google.e913caed1bed8eb5ef57.png",
+    "static/media/inst.png": "/index.html/static/media/inst.74dfaf920db79c07cf4f.png",
+    "static/media/fahri.jpg": "/index.html/static/media/fahri.2ebbfc770120091e5570.jpg",
+    "static/media/github.png": "/index.html/static/media/github.ba9cb8d57d53e7189c48.png",
+    "static/media/loading.jpg": "/index.html/static/media/loading.fcba106fba76720f6b62.jpg",
+    "index.html": "/index.html/index.html",
+    "main.25e58064.css.map": "/index.html/static/css/main.25e58064.css.map",
+    "main.df366d06.js.map": "/index.html/static/js/main.df366d06.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1113616.css",
-    "static/js/main.ec08dba0.js"
+    "static/css/main.25e58064.css",
+    "static/js/main.df366d06.js"
   ]
 }
