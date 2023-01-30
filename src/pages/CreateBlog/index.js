@@ -76,7 +76,7 @@ const CreateBlog = () => {
         }, 2000)
         setTimeout(function () {
             setShow(false)
-            // window.location.reload()
+            window.location.reload()
         }, 0)
         return (
             <Toast className='data_succes'>

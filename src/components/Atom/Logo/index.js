@@ -10,7 +10,7 @@ const Logo = ({ src, title, bgcc, border, href, idData, ...rest }) => {
         if (window.confirm("Apakah anda yakin")) {
             axios.delete(`https://serverPortfolio-2.fahrumfahriansy.repl.co/v1/Technology/${event.target.dataset.id}`)
                 .then(res => {
-                    // window.location.reload()
+                    window.location.reload()
                 }).catch(err => {
                     console.log("err di delete technology")
                     console.log(err)

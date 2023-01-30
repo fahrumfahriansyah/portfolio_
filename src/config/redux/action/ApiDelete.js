@@ -6,10 +6,9 @@ export const ApiDelete = (idDelete, setLoadDelete) => {
             .then(response => {
                 console.log(response)
                 setTimeout(function () {
-                    // window.location.reload(true)
-                    setLoadDelete(false)//!ini tidak ada jika di local
+                    window.location.reload(true)
                 }, 0)
-                // setLoadDelete(true)//!ini ada jika di local
+                setLoadDelete(true)//!ini ada jika di local
 
             }).catch(err => {
                 console.log("err di delete Project")

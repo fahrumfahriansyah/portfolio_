@@ -34,7 +34,7 @@ const CreateBlog = () => {
             }
         }).then(response => {
             setShow(false)
-            // window.location.reload()
+            window.location.reload()
         }).catch(err => {
             setShow(true)
             console.log("err di post Tech")
