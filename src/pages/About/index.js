@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Container, Row, Col, Figure, Accordion, ListGroup } from 'react-bootstrap';
 import "./style.scss"
 import NavbarHome from '../../components/Molekul/Navbar'
-import fahri from "../../assets/image/background/fahri.jpg"
+import fahri from "../../assets/image/background/fahri.jpeg"
 import AOS from 'aos';
 import Tilt from 'react-vanilla-tilt'
 import { gsap } from 'gsap';
@@ -21,10 +21,10 @@ const About = () => {
             duration: 1, y: 0, opacity: 1, overwrite: 'none'
         });
 
-        gsap.set('.figure_image', {
+        gsap.set('.figure', {
             duration: 0, y: -200, opacity: 1, overwrite: 'none'
         });
-        gsap.to('.figure_image', {
+        gsap.to('.figure', {
             duration: 1, y: 0, opacity: 1, overwrite: 'none'
         });
     })
@@ -38,16 +38,17 @@ const About = () => {
                 <Row>
                     <Col sm={12} >
                         <div className="figure_About">
-                            <Figure >
+                            <Figure className='figure' >
                                 <Tilt options={{ scale: 2, max: 80, glare: false, reverse: false, speed: 200 }}
-                                    style={{ borderRadius: "50%", backgroundColor: "transparent" }}
+                                    style={{ borderRadius: "20%", backgroundColor: "transparent" }}
                                 >
                                     <Figure.Image
-                                        width={200}
-                                        height={180}
+                                        width={150}
+                                        height={100}
                                         alt="171x180"
                                         src={fahri}
                                         className="figure_image"
+                                        style={{ marginBottom: "-10px" }}
                                     />
                                 </Tilt>
                             </Figure>
