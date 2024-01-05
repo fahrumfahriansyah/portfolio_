@@ -8,7 +8,7 @@ const Logo = ({ src, title, bgcc, border, href, idData, ...rest }) => {
     const { data } = useSelector(state => state.global)
     const deleteTech = (event) => {
         if (window.confirm("Apakah anda yakin")) {
-            axios.delete(`https://serverPortfolio-2.fahrumfahriansy.repl.co/v1/Technology/${event.target.dataset.id}`)
+            axios.delete(`https://deb16b35-e085-4404-acf0-af86a4e7be1c-00-2x85sq0deyff1.global.replit.dev/v1/Technology/${event.target.dataset.id}`)
                 .then(res => {
                     window.location.reload()
                 }).catch(err => {

@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const ApiGetAccess = (setDataAccess) => {
-    axios.get("https://serverPortfolio-2.fahrumfahriansy.repl.co/v1/Auth/login/getLogin")
+    axios.get("https://deb16b35-e085-4404-acf0-af86a4e7be1c-00-2x85sq0deyff1.global.replit.dev/v1/Auth/login/getLogin")
         .then(response => {
             setDataAccess(response.data.response)
         }).catch(err => {
@@ -11,7 +11,7 @@ export const ApiGetAccess = (setDataAccess) => {
 }
 
 export const ApiUpdateAccess = (data, setSuccess) => {
-    axios.put(`https://serverPortfolio-2.fahrumfahriansy.repl.co/v1/Auth/${data}`)
+    axios.put(`https://deb16b35-e085-4404-acf0-af86a4e7be1c-00-2x85sq0deyff1.global.replit.dev/v1/Auth/${data}`)
         .then(res => {
             setSuccess(true)
             setTimeout(function () {
@@ -26,7 +26,7 @@ export const ApiUpdateAccess = (data, setSuccess) => {
 }
 
 export const ApiDeleteAccess = (data, setRemove) => {
-    axios.delete(`https://serverPortfolio-2.fahrumfahriansy.repl.co/v1/Auth/${data}`)
+    axios.delete(`https://deb16b35-e085-4404-acf0-af86a4e7be1c-00-2x85sq0deyff1.global.replit.dev/v1/Auth/${data}`)
         .then(res => {
             setRemove(true)
             setTimeout(function () {

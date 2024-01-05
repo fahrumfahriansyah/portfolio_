@@ -51,7 +51,7 @@ const Cardss = () => {
 
     const deleteProject = (event) => {
         const dataId = sessionStorage.getItem("dataId")
-        axios.get(`https://serverPortfolio-2.fahrumfahriansy.repl.co/v1/Auth/login/${data || dataId}`)
+        axios.get(`https://deb16b35-e085-4404-acf0-af86a4e7be1c-00-2x85sq0deyff1.global.replit.dev/v1/Auth/login/${data || dataId}`)
             .then(res => {
                 let data = res.data.response.Admin.Access
                 if (data) {
@@ -117,7 +117,7 @@ const Cardss = () => {
 
                                 className='global' data-tilt style={{ backgroundColor: "none", width: "max-content" }} >
                                 <Card style={{ width: '18rem' }} data-aos="fade-up-right" data-aos-offset="100" className='card_3d' >
-                                    <Card.Img variant="top" src={`https://serverPortfolio-2.fahrumfahriansy.repl.co/${data.image}`} className="image_card" />
+                                    <Card.Img variant="top" src={`https://deb16b35-e085-4404-acf0-af86a4e7be1c-00-2x85sq0deyff1.global.replit.dev/${data.image}`} className="image_card" />
                                     <Card.Body >
                                         <Card.Title className="title_card" >{text.judul}</Card.Title>
                                         <Card.Text className="text-card" style={{ padding: "10px", objectFit: "contain", width: "60%" }} >
@@ -156,7 +156,7 @@ const Cardss = () => {
                             {dataTech.map((data) => {
                                 const dataTech = data.Technology
                                 return (
-                                    <Logo idData={data._id} key={data._id} id={dataTech.bgc} href={dataTech.link} src={`https://serverPortfolio-2.fahrumfahriansy.repl.co/${data.image}`} title={dataTech.judul} bgcc={background === dataTech.bgc ? background : "white"} border={`1px solid ${dataTech.bgc}`} onMouseEnter={(a) => mouseEnter(a.target.id)} onMouseLeave={(a) => setIsHovered(a.target.id)} data-aos="flip-left" data-aos-offset="0" />
+                                    <Logo idData={data._id} key={data._id} id={dataTech.bgc} href={dataTech.link} src={`https://deb16b35-e085-4404-acf0-af86a4e7be1c-00-2x85sq0deyff1.global.replit.dev/${data.image}`} title={dataTech.judul} bgcc={background === dataTech.bgc ? background : "white"} border={`1px solid ${dataTech.bgc}`} onMouseEnter={(a) => mouseEnter(a.target.id)} onMouseLeave={(a) => setIsHovered(a.target.id)} data-aos="flip-left" data-aos-offset="0" />
                                 )
                             })}
 
