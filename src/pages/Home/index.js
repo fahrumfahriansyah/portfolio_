@@ -19,7 +19,7 @@ const Home = () => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            axios.delete(`https://serverPortfolio-2.fahrumfahriansy.repl.co/v1/Auth`)
+            axios.delete(`https://deb16b35-e085-4404-acf0-af86a4e7be1c-00-2x85sq0deyff1.global.replit.dev/v1/Auth`)
                 .then(response => {
                     console.log(response.data);
                 })

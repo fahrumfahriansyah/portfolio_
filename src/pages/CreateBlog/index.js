@@ -23,7 +23,7 @@ const CreateBlog = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => {
         const dataId = sessionStorage.getItem("dataId")
-        axios.get(`https://serverPortfolio-2.fahrumfahriansy.repl.co/v1/Auth/login/${valueData.data || dataId}`)
+        axios.get(`https://deb16b35-e085-4404-acf0-af86a4e7be1c-00-2x85sq0deyff1.global.replit.dev/v1/Auth/login/${valueData.data || dataId}`)
             .then(res => {
                 let data = res.data.response.Admin.Access
                 if (data) {
@@ -44,7 +44,7 @@ const CreateBlog = () => {
         data.append("body", body)
         data.append("link", link)
         data.append("image", image)
-        axios.post("https://serverPortfolio-2.fahrumfahriansy.repl.co/v1/Project/CreateProject", data, {
+        axios.post("https://deb16b35-e085-4404-acf0-af86a4e7be1c-00-2x85sq0deyff1.global.replit.dev/v1/Project/CreateProject", data, {
             headers: {
                 "content-type": "multipart/form-data"
             }

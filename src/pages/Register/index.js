@@ -55,7 +55,7 @@ const Register = () => {
             password: password
         }
 
-        axios.post('https://serverPortfolio-2.fahrumfahriansy.repl.co/v1/Auth/register', data, {
+        axios.post('https://deb16b35-e085-4404-acf0-af86a4e7be1c-00-2x85sq0deyff1.global.replit.dev/v1/Auth/register', data, {
             headers: {
                 'content-type': 'application/x-www-form-urlencoded'
             }
